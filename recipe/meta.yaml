@@ -1,5 +1,5 @@
 {% set name = "trame-deckgl" %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/trame-deckgl-{{ version }}.tar.gz
-  sha256: f01b1c88350f324cbedc26af6e8ea3f55dd60389d39b726275461add1bf8d06a
+  sha256: 7ed91887f2afc9a0971cdbb4e275206209828923c566d90e6616efd7d6c17537
 
 build:
   number: 0
