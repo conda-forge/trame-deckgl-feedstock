@@ -19,7 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools
+    - hatchling
   run:
     - python >={{ python_min }}
     - trame-client
@@ -46,4 +46,5 @@ extra:
     - banesullivan
     - jourdain
     - psavery
+    - willdunklin
     - kwrobot
